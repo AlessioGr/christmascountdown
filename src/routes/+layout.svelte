@@ -11,7 +11,7 @@
 </script>
 
 <Header/>
-<main class="flex flex-col justify-center pt-10 px-4 min-h-121">
+<main class="flex flex-col pt-10 px-4 min-h-121">
   <slot />
 </main>
 <Footer/>

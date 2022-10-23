@@ -17,7 +17,7 @@ export default defineConfig({
   theme: {
     extend: {
       colors: {
-        "background-light-100": "#f8f8f8",
+        "background-light-100": "#000000",
         "background-dark-100": "#1f1f1f",
         "primary-100": "#004ee0"
       }
@@ -25,6 +25,6 @@ export default defineConfig({
   },
   shortcuts: {
     "body-background": "bg-background-light-100 dark:bg-background-dark-100",
-    "body-text": "text-black dark:text-white"
+    "body-text": "text-white dark:text-white"
   }
 });
